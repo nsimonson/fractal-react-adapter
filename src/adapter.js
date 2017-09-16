@@ -100,7 +100,8 @@ function registerBabel(app, config) {
     plugins: [
       ["module-resolver", {
         "alias": aliases
-      }]
+      }],
+      "add-module-exports"
     ]
   });
 
